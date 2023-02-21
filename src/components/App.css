@@ -1,0 +1,158 @@
+/*reseteo*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 10 px */
+html{
+  font-size: 62.5%;
+}
+
+/*--------------------------------------------------------------------------- */
+
+
+/*------------------ REACT ----------------------------------------*/
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ------------------ PROYECTO ---------------------- */
+
+/* Color de fondo para todas las hojas */
+body{
+ /* background-color: rgb(236, 185, 58); */
+}
+
+
+
+
+/*-------------------------------------------------------------*/
+/* BARRA DE NAVEGACION  CON BOOTSTRAP*/
+
+/* Color de fondo */
+/* header{
+  background-color: rgb(96, 96, 96);
+} */
+
+/* estilos para titulo del navbar */
+/* div h1{
+  background-color: rgb(96, 96, 96);
+  font-size: 3rem;
+} */
+
+/* tamanio del logo */
+div img{
+  /*width: 15rem;*/
+}
+
+/* formato a la caja que contiene el logo y titulo */
+/*.img-logo{
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}*/
+
+/* formato a cada seccion */
+#navsec{
+  text-decoration: none;
+  /*color: whitesmoke;*/
+  font-size: 2rem;
+  padding: 10px;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin: 10px;
+  /*background-color: rgb(96, 96, 96);*/
+}
+
+#navsec:hover{
+  background-color:  green;
+  color: whitesmoke;
+} 
+
+/* formato al dropdown */
+
+#navsecDown{
+  text-decoration: none;
+  /*color: whitesmoke;*/
+  font-size: 2rem;
+  padding: 5px;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  margin: 0px;
+  /*background-color: rgb(96, 96, 96);*/
+}
+
+#navsecDown:hover{
+  background-color:  green;
+  color: whitesmoke;
+} 
+
+/* flex de las secciones */
+#contenedorSecciones{
+  display: flex;
+  align-items: center;
+}
+
+/* contenedor del buscador */
+.d-flex{
+  align-items: center;
+  width: 400px;
+}
+
+/* formato del buscador */
+.buscador {
+  height: 52px;
+  text-decoration: none;
+  /*color: whitesmoke;*/
+  font-size: 2rem;
+  padding: 10px;
+  border: 0.1rem solid black;
+}
+
+
+.navbar-collapse{
+  flex-grow: 0;
+}
+
+
+/*-------------------------------------------------------------*/
