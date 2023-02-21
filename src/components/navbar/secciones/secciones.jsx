@@ -22,7 +22,7 @@ const Secciones = () => {
                     
                     <ul className="dropdown-menu" >
                         <li><Link className="dropdown-item" id="navsecDown" to={'/categorias/categoria-1'}>Categoria 1</Link></li>
-                        <li><Link className="dropdown-item" id="navsecDown" to={'/categorias/categorias-2'}>Categoria 2</Link></li>
+                        <li><Link className="dropdown-item" id="navsecDown" to={'/categorias/categoria-2'}>Categoria 2</Link></li>
                         <li><hr className="dropdown-divider" /></li>
                         <li><Link className="dropdown-item" id="navsecDown" to={'/categorias'}>Todas las categorías</Link></li>
                     </ul>
