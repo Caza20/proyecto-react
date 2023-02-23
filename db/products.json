@@ -1,0 +1,210 @@
+{
+"productos":[
+    {
+        "id":1 ,
+        "nombre" : "moto e40",
+        "marca":"motorola",
+        "precio":52999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/161392-1200-auto?v=638097463604670000&width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":2,
+        "nombre" :"moto e22",
+        "marca":"motorola",
+        "precio":46999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163745-1200-auto?v=638097509786700000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":3,
+        "nombre":"moto e32",
+        "marca":"motorola",
+        "precio":53999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/162569-1200-auto?v=638097504617530000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":4,
+        "nombre":"moto g22",
+        "marca":"motorola",
+        "precio":64999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/162068-1200-auto?v=638097457590900000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":5,
+        "nombre":"moto g32",
+        "marca":"motorola",
+        "precio":71999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163354-1200-auto?v=638097453553000000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":6,
+        "nombre":"moto g42",
+        "marca":"motorola",
+        "precio":76999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163932-1200-auto?v=638097447694500000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":7,
+        "nombre":"moto g52",
+        "marca":"motorola",
+        "precio":76999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/162853-1200-auto?v=638097447615370000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":8,
+        "nombre":"moto g52",
+        "marca":"motorola",
+        "precio":75999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/162495-1200-auto?v=638097414502370000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":9,
+        "nombre":"moto g72",
+        "marca":"motorola",
+        "precio":99999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163877-1200-auto?v=638082338135100000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":10,
+        "nombre":"moto g82",
+        "marca":"motorola",
+        "precio":94999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/162591-1200-auto?v=638097397352400000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":11,
+        "nombre":"motorola edge 30 neo",
+        "marca":"motorola",
+        "precio":129999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163027-1200-auto?v=638096834845970000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":12,
+        "nombre":"moto edge 30 ultra",
+        "marca":"motorola",
+        "precio":279999,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163140-1200-auto?v=638101341692630000&width=1200&height=auto&aspect=true"
+    },
+    {
+        "id":13,
+        "nombre":"galaxy a13",
+        "marca":"samsung",
+        "precio":73999,
+        "stock":20,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a135mzkkaro/gallery/ar-galaxy-a13-sm-a135-sm-a135mzkkaro-532207010?$684_547_PNG$"
+    },
+    {
+        "id":14,
+        "nombre":"galaxy a23",
+        "marca":"samsung",
+        "precio":85999,
+        "stock":20,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a236mzkearo/gallery/ar-galaxy-a23-5g-sm-a236-sm-a236mzkearo-535045478?$1300_1038_PNG$"
+    },
+    {
+        "id":15,
+        "nombre":"galaxy a33",
+        "marca":"samsung",
+        "precio":136999,
+        "stock":20,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/ar/sm-a336mlbfaro/gallery/ar-galaxy-a33-5g-a336-sm-a336mlbfaro-532010006?$650_519_PNG$"
+    },
+    {
+        "id":16,
+        "nombre":"galaxy a53",
+        "marca":"samsung",
+        "precio":163999,
+        "stock":20,
+        "img":"https://images.samsung.com/is/image/samsung/p6pim/ar/2202/gallery/ar-galaxy-a53-5g-a536-sm-a536ezkaaro-531544682?$1300_1038_PNG$"
+    },
+    {
+        "id":17,
+        "nombre":"galaxy s22",
+        "marca":"samsung",
+        "precio":272000,
+        "stock":20,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_982638-MLA52414999132_112022-O.webp"
+    },
+    {
+        "id":18,
+        "nombre":"galaxy s22 ultra",
+        "marca":"samsung",
+        "precio":599999,
+        "stock":15,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_831002-MLA52140369281_102022-O.webp"
+    },
+    {
+        "id":19,
+        "nombre":"galaxy s23",
+        "marca":"samsung",
+        "precio":399999,
+        "stock":15,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_992015-MLA53448860688_012023-O.webp"
+    },
+    {
+        "id":20,
+        "nombre":"galaxy z flip 4",
+        "marca":"samsung",
+        "precio":269999,
+        "stock":10,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_771345-MLA51717835790_092022-O.webp"
+    },
+    {
+        "id":21,
+        "nombre":"redmi note 11",
+        "marca":"xiaomi",
+        "precio":93000,
+        "stock":11,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_632200-MLA52131665227_102022-O.webp"
+    },
+    {
+        "id":22,
+        "nombre":"pocophone poco x4 pro 5g",
+        "marca":"xiaomi",
+        "precio":171000,
+        "stock":5,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_705886-MLA52140099426_102022-O.webp"
+    },
+    {
+        "id":23,
+        "nombre":"redmi note 10 pro",
+        "marca":"xiaomi",
+        "precio":141000,
+        "stock":12,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_740367-MLA50263585607_062022-O.webp"
+    },
+    {
+        "id":24,
+        "nombre":"redmi note 11 pro 5g",
+        "marca":"xiaomi",
+        "precio":227000,
+        "stock":7,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_862456-MLA49635872683_042022-O.webp"
+    },
+    {
+        "id":25,
+        "nombre":"12 t pro",
+        "marca":"xiaomi",
+        "precio":319000,
+        "stock":5,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_738844-MLA52594792534_112022-O.webp"
+    }
+
+
+    
+]
+
+
+}
