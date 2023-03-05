@@ -5,18 +5,21 @@ const Product = ({prod}) => {
     return (
 
         <div className="cardProducto">
-            <img src={prod.img} className="card-img-top" alt="..." />
+            
                 <div className="card-body">
-                    <h5>{prod.nombre}</h5>
-                        <p className="card-text">{prod.marca}</p>
-                        <p className="card-text">{prod.precio}</p>
-                        <p className="card-text">{prod.stock}</p>
+                <img src={prod.img} className="card-img-top" alt="..." /> 
+                    <ul className="card-text">
+                        <li className="card-text1"><h5>Modelo:{prod.nombre}</h5></li>
+                        <li className="card-text1">Marca:{prod.marca}</li>
+                        <li className="card-text1">Precio:${prod.precio}</li>
+                        <li className="card-text1">Stock:{prod.stock}</li>
                         <button className="btn btn-dark">agregar al carrito</button>
+                    </ul>
                 </div>
             </div>
         );
     }
-        
+
 
 
 

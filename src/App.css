@@ -4,12 +4,52 @@
   box-sizing: border-box;
 }
 
-.cardProductos{
+/*.cardProductos{
   margin: 5px;
+  display: flex;
   align-items: center;
   justify-content: center;
-}
+}*/
 .cardProducto{
-  width: 19 rem;
+  margin: 5px;
+  border-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  
+  
+} 
+.card-body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 19rem;
   margin: 4px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: 8px;
+
+}
+.card-img-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+}
+.card-text{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.card-text .card-text1 {
+  list-style-type:none;
+}
+.btn-dark{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
 }

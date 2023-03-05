@@ -2,6 +2,7 @@
 "productos":[
     {
         "id":1 ,
+        "idCategoria":1,
         "nombre" : "moto e40",
         "marca":"motorola",
         "precio":52999,
@@ -11,6 +12,7 @@
     },
     {
         "id":2,
+        "idCategoria":1,
         "nombre" :"moto e22",
         "marca":"motorola",
         "precio":46999,
@@ -19,6 +21,7 @@
     },
     {
         "id":3,
+        "idCategoria":1,
         "nombre":"moto e32",
         "marca":"motorola",
         "precio":53999,
@@ -27,6 +30,7 @@
     },
     {
         "id":4,
+        "idCategoria":1,
         "nombre":"moto g22",
         "marca":"motorola",
         "precio":64999,
@@ -35,6 +39,7 @@
     },
     {
         "id":5,
+        "idCategoria":1,
         "nombre":"moto g32",
         "marca":"motorola",
         "precio":71999,
@@ -43,6 +48,7 @@
     },
     {
         "id":6,
+        "idCategoria":1,
         "nombre":"moto g42",
         "marca":"motorola",
         "precio":76999,
@@ -51,6 +57,7 @@
     },
     {
         "id":7,
+        "idCategoria":1,
         "nombre":"moto g52",
         "marca":"motorola",
         "precio":76999,
@@ -59,6 +66,7 @@
     },
     {
         "id":8,
+        "idCategoria":1,
         "nombre":"moto g52",
         "marca":"motorola",
         "precio":75999,
@@ -67,6 +75,7 @@
     },
     {
         "id":9,
+        "idCategoria":1,
         "nombre":"moto g72",
         "marca":"motorola",
         "precio":99999,
@@ -75,6 +84,7 @@
     },
     {
         "id":10,
+        "idCategoria":1,
         "nombre":"moto g82",
         "marca":"motorola",
         "precio":94999,
@@ -83,6 +93,7 @@
     },
     {
         "id":11,
+        "idCategoria":1,
         "nombre":"motorola edge 30 neo",
         "marca":"motorola",
         "precio":129999,
@@ -91,6 +102,7 @@
     },
     {
         "id":12,
+        "idCategoria":1,
         "nombre":"moto edge 30 ultra",
         "marca":"motorola",
         "precio":279999,
@@ -99,6 +111,7 @@
     },
     {
         "id":13,
+        "idCategoria":1,
         "nombre":"galaxy a13",
         "marca":"samsung",
         "precio":73999,
@@ -107,6 +120,7 @@
     },
     {
         "id":14,
+        "idCategoria":1,
         "nombre":"galaxy a23",
         "marca":"samsung",
         "precio":85999,
@@ -115,6 +129,7 @@
     },
     {
         "id":15,
+        "idCategoria":1,
         "nombre":"galaxy a33",
         "marca":"samsung",
         "precio":136999,
@@ -123,6 +138,7 @@
     },
     {
         "id":16,
+        "idCategoria":1,
         "nombre":"galaxy a53",
         "marca":"samsung",
         "precio":163999,
@@ -131,6 +147,7 @@
     },
     {
         "id":17,
+        "idCategoria":1,
         "nombre":"galaxy s22",
         "marca":"samsung",
         "precio":272000,
@@ -139,6 +156,7 @@
     },
     {
         "id":18,
+        "idCategoria":1,
         "nombre":"galaxy s22 ultra",
         "marca":"samsung",
         "precio":599999,
@@ -147,6 +165,7 @@
     },
     {
         "id":19,
+        "idCategoria":1,
         "nombre":"galaxy s23",
         "marca":"samsung",
         "precio":399999,
@@ -155,6 +174,7 @@
     },
     {
         "id":20,
+        "idCategoria":1,
         "nombre":"galaxy z flip 4",
         "marca":"samsung",
         "precio":269999,
@@ -163,6 +183,7 @@
     },
     {
         "id":21,
+        "idCategoria":1,
         "nombre":"redmi note 11",
         "marca":"xiaomi",
         "precio":93000,
@@ -171,6 +192,7 @@
     },
     {
         "id":22,
+        "idCategoria":1,
         "nombre":"pocophone poco x4 pro 5g",
         "marca":"xiaomi",
         "precio":171000,
@@ -179,6 +201,7 @@
     },
     {
         "id":23,
+        "idCategoria":1,
         "nombre":"redmi note 10 pro",
         "marca":"xiaomi",
         "precio":141000,
@@ -187,6 +210,7 @@
     },
     {
         "id":24,
+        "idCategoria":1,
         "nombre":"redmi note 11 pro 5g",
         "marca":"xiaomi",
         "precio":227000,
@@ -195,6 +219,7 @@
     },
     {
         "id":25,
+        "idCategoria":1,
         "nombre":"12 t pro",
         "marca":"xiaomi",
         "precio":319000,
