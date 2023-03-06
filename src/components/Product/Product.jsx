@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Product = ({prod}) => {
     console.log(prod)
@@ -13,7 +13,7 @@ const Product = ({prod}) => {
                         <li className="card-text1">Marca:{prod.marca}</li>
                         <li className="card-text1">Precio:${prod.precio}</li>
                         <li className="card-text1">Stock:{prod.stock}</li>
-                        <button className="btn btn-dark">agregar al carrito</button>
+                        <button className="btn btn-dark"><Link className="nav-link" to={`/producto/${prod.id}`}> ver producto </Link></button>
                     </ul>
                 </div>
             </div>
