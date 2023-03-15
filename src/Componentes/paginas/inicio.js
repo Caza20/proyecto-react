@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer"
 const Inicio = () => {
     return (
         <div> 
-            <Carousel />
+            <Carousel/>
                 <div className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">   
                         <div className="carousel-item active" data-bs-interval="3000">
@@ -35,12 +35,9 @@ const Inicio = () => {
                 </div>
             
             <Footer/>
-                <footer className="w-100" id="pie">
-                    <p>MEJ. &copy; Todos los derechos reservados 2023</p>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-                    <script src="https://unpkg.com/typewriter-effect@lastest/dist/core.js"></script>
-                    <script src="items.js"></script>
-                </footer>
+                        <div className="container">
+                            <p className="text-center">MEJ.Todos los derechos reservados - 2023</p>
+                        </div>
         </div>
   
     )
