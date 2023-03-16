@@ -3,7 +3,7 @@ import React from 'react';
 /* Componentes */
 import BotonResponsive from './botonResponsive/botonResponsive';
 import Logo from './logo/logo';
-import Carrito from '../carrito/carrito';
+import BotonCarrito from '../botonCarrito/botonCarrito';
 import Buscador from './buscador/buscador';
 
 
@@ -13,16 +13,16 @@ const Navbar = () => {
         <div>
             <header>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                
                     <div className="container-fluid" id = "contenedorNav">
-                        
+  
                         <BotonResponsive/>
                         
                         <Logo/>
             
                         <Buscador/>
 
-                        <Carrito/>
-                        
+                        <BotonCarrito/>
                     </div>
                 </nav>
             </header>
