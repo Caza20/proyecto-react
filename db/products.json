@@ -225,7 +225,208 @@
         "precio":319000,
         "stock":5,
         "img":"https://http2.mlstatic.com/D_NQ_NP_738844-MLA52594792534_112022-O.webp"
+    },
+    {
+        "id":26,
+        "idCategoria":2,
+        "nombre" :"moto buds 250 rosa",
+        "marca":"motorola",
+        "precio":24999,
+        "stock":19,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163201-1200-auto?v=637983465283800000&width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":27,
+        "idCategoria":2,
+        "nombre" :"moto buds 085 negro",
+        "marca":"motorola",
+        "precio":16999,
+        "stock":12,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/163186-1200-auto?v=637983451265770000&width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":28,
+        "idCategoria":2,
+        "nombre" :"moto buds 105 negro", 
+        "marca":"motorola",
+        "precio":19990,
+        "stock":20,
+        "img":"https://armoto.vtexassets.com/arquivos/ids/164067-1200-auto?v=638133656747270000&width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":29,
+        "idCategoria":2,
+        "nombre" :"galaxy buds pro negro",
+        "marca":"samsung",
+        "precio":47999,
+        "stock":25,
+        "img":"https://samsungar.vtexassets.com/arquivos/ids/165167-1200-auto?width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":30,
+        "idCategoria":2,
+        "nombre" :"galaxy buds2 pro grafito",
+        "marca":"samsung",
+        "precio":49999,
+        "stock":15,
+        "img":"https://samsungar.vtexassets.com/arquivos/ids/184136-1200-auto?width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":31,
+        "idCategoria":2,
+        "nombre" :"galaxy buds2 blanco",
+        "marca":"samsung",
+        "precio":39999,
+        "stock":20,
+        "img":"https://samsungar.vtexassets.com/arquivos/ids/173095-1200-auto?width=1200&height=auto&aspect=true"
+        
+    },
+    {
+        "id":32,
+        "idCategoria":2,
+        "nombre" :"redmi buds essentials",
+        "marca":"xiaomi",
+        "precio":9999,
+        "stock":50,
+        "img":"https://cdn-xiaomi.waugi.com.ar/2040-home_default/xiaomi-redmi-buds-essential.jpg"
+        
+    },
+    {
+        "id":33,
+        "idCategoria":2,
+        "nombre" :"xiaomi buds 3t pro",
+        "marca":"xiaomi",
+        "precio":54074,
+        "stock":11,
+        "img":"https://cdn-xiaomi.waugi.com.ar/909-home_default/auriculares-inalambricos-xiaomi-buds-3t-pro-bluetooth-.jpg"
+        
+    },
+    {
+        "id":34,
+        "idCategoria":2,
+        "nombre" :"redmi buds 4 pro",
+        "marca":"xiaomi",
+        "precio":37399,
+        "stock":20,
+        "img":"https://cdn-xiaomi.waugi.com.ar/2022-home_default/auriculares-inalambricos-xiaomi-redmi-buds-4-pro-bluetooth.jpg"
+        
+    },
+    {
+        "id":35,
+        "idCategoria":3,
+        "nombre" :"moto watch 100 1.3",
+        "marca":"motorola",
+        "precio":33645,
+        "stock":5,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_678282-MLA50400350912_062022-O.webp"
+        
+    },
+    {
+        "id":36,
+        "idCategoria":3,
+        "nombre" :"watch s1 active gl",
+        "marca":"xiaomi",
+        "precio":88999,
+        "stock":20,
+        "img":"https://cdn-xiaomi.waugi.com.ar/1296-home_default/xiaomi-watch-s1-active-gl-.jpg"
+        
+    },
+    {
+        "id":37,
+        "idCategoria":3,
+        "nombre" :"redmi band 2 gl",
+        "marca":"xiaomi",
+        "precio":16499,
+        "stock":15,
+        "img":"https://cdn-xiaomi.waugi.com.ar/2088-home_default/xiaomi-redmi-smart-band-2-gl-watch.jpg"
+        
+    },
+    {
+        "id":38,
+        "idCategoria":3,
+        "nombre" :"galaxy watch 4",
+        "marca":"samsung",
+        "precio":75990,
+        "stock":10,
+        "img":"https://images.samsung.com/is/image/samsung/assets/ar/2208/pcd/watches/PCD_showcase_3_card_watch4_PC.png?$376_376_PNG$"
+        
+    },
+    {
+        "id":39,
+        "idCategoria":3,
+        "nombre" :"galaxy watch 5 pro",
+        "marca":"samsung",
+        "precio":123999,
+        "stock":10,
+        "img":"https://images.samsung.com/is/image/samsung/assets/ar/2208/pcd/watches/Galaxy_Watch5Pro_PC.png?$376_376_PNG$"
+        
+    },
+    {
+        "id":40,
+        "idCategoria":3,
+        "nombre" :"galaxy watch 5",
+        "marca":"samsung",
+        "precio":83999,
+        "stock":20,
+        "img":"https://images.samsung.com/is/image/samsung/assets/ar/2208/pcd/watches/Galaxy_Watch5_PC.png?$376_376_PNG$"
+        
+    },
+    {
+        "id":41,
+        "idCategoria":4,
+        "nombre" : "teclado inalambrico lenovo para celular",
+        "marca":"lenovo",
+        "precio":7999,
+        "stock":20,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_946520-MLA49476021009_032022-O.webp"
+        
+    },
+    {
+        "id":42,
+        "idCategoria":4,
+        "nombre" :"sporte para celular",
+        "marca":"universal",
+        "precio":1200,
+        "stock":77,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_840894-MLA49666679815_042022-O.webp"
+        
+    },
+    {
+        "id":43,
+        "idCategoria":4,
+        "nombre" :"jostick inalambrico celular",
+        "marca":"universal",
+        "precio":4800,
+        "stock":35,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_860053-MLA52539914205_112022-O.webp"
+        
+    },
+    {
+        "id":44,
+        "idCategoria":4,
+        "nombre" : "funda + hidrogel",
+        "marca":"universal",
+        "precio":3500,
+        "stock":100,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_743761-MLA51497252914_092022-O.webp"
+        
+    },
+    {
+        "id":45,
+        "idCategoria":4,
+        "nombre" :"cargador inalambrico",
+        "marca":"universal",
+        "precio":4050,
+        "stock":10,
+        "img":"https://http2.mlstatic.com/D_NQ_NP_707947-MLA52750653244_122022-O.webp"
+        
     }
+
 
 
     
