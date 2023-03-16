@@ -1,6 +1,6 @@
 //import Product from "../Product/Product";
 import { useParams } from "react-router-dom";
-//import axios from "axios" ;
+import axios from "axios" ;
 import ProductList from "../ProductList/ProductList";
 import { useState, useEffect } from "react";
 
@@ -12,28 +12,38 @@ function ProductListContainer() {
     useEffect(() => {
 
         if (categoria) { 
-            fetch('http://localhost:3001/productos')
-                .then(promise => promise.json())
+            axios.get('http://localhost:3001/productos')
+                .then(promise => promise.data)
                 .then(items => {
                     const products = items.filter(producto => producto.idCategoria === parseInt(categoria));
                     const itemsFiltrados = ProductList({ products });
                     setProductos(itemsFiltrados);
                 });
         } else {
-            fetch('http://localhost:3001/productos')
-                .then(promise => promise.json())
+            axios.get('http://localhost:3001/productos')
+                .then(promise => promise.data)
                 .then(products => {
                     const items = ProductList({ products });
                     setProductos(items);
                 });
-        }
+            }
+        },[categoria]); 
+    
 
-    }, [categoria]);
+/*   useEffect(()=>{
+    axios.get('http://localhost:3001/productos')
+    .then((res)=>{
+        const constantePrueba = res.data
+        const items = ProductList({constantePrueba});
+        console.log(res)
+        setProductos(items)
+    })
+    }, []); */
 
     return (
         <div className='row cardProductos'>
             {productos}
-        </div>
+        </div> 
     );
 }
 
