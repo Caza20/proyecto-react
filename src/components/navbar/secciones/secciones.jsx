@@ -8,12 +8,25 @@ const Secciones = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item"> 
-                    <Link className="nav-link "  id="navsec" aria-current="page" to={'/seccion-1'} >Sección 1</Link>
+                    <Link className="nav-link "  id="navsec" aria-current="page" to={'/marcas/motorola'} >Motorola</Link>
             </li>
 
             <li className="nav-item"> 
-                    <Link className="nav-link" id="navsec" aria-current="page" to={'/seccion-2'}>Sección 2</Link>
+                    <Link className="nav-link" id="navsec" aria-current="page" to={'/marcas/samsung'}>Samsung</Link>
             </li>
+
+            <li className="nav-item"> 
+                    <Link className="nav-link" id="navsec" aria-current="page" to={'/marcas/xiaomi'}>Xiaomi</Link>
+            </li>
+            
+            <li className="nav-item"> 
+                    <Link className="nav-link" id="navsec" aria-current="page" to={'/marcas/lenovo'}>Lenovo</Link>
+            </li>
+            
+            <li className="nav-item"> 
+                    <Link className="nav-link" id="navsec" aria-current="page" to={'/marcas/universal'}>Universal</Link>
+            </li>
+
 
            <li className="nav-item active dropdown"> 
                     <Link className="nav-link dropdown-toggle"  id="navsec" aria-current="page" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -21,16 +34,15 @@ const Secciones = () => {
                     </Link>
                     
                     <ul className="dropdown-menu" >
-                        <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/categorias/1'}>Categoria 1</Link></li>
-                        <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/categorias/categoria-2'}>Categoria 2</Link></li>
+                        <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/categorias/1'}>Celulares</Link></li>
+                        <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/categorias/2'}>Auriculares</Link></li>
+                        <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/categorias/3'}>Smartwatches</Link></li>
+                        <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/categorias/4'}>Varios</Link></li>
                         <li><hr className="dropdown-divider" /></li>
                         <li><Link className="dropdown-item" id="navsecDown" aria-current="page" to={'/todas-las-categorias'}>Todas las categorías</Link></li>
                     </ul>
             </li> 
 
-           <li className="nav-item"> 
-                    <Link className="nav-link" id="navsec" aria-current="page" to={'/seccion-3'}>Sección 3</Link>
-            </li>
 
         </ul>
     </div>

@@ -23,12 +23,17 @@ function App() {
         <Routes>
             <Route path='/' element={<ProductListContainer/>}/> 
 
-            <Route path='/seccion-1' element={<h1>Seccion 1</h1>}/>
-            <Route path='/seccion-2' element={<h1>Seccion 2</h1>}/>
-            <Route path='/seccion-3' element={<h1>Seccion 3</h1>}/>
+            <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
+            <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
+            <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
+            <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
+            <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
             
+
             <Route path='/categorias/:categoria' element={<ProductListContainer/>}/>
-            <Route path='/categorias/categoria-2' element={<h1>Categoria 2</h1>}/>
+            <Route path='/categorias/:categoria' element={<ProductListContainer/>}/>
+            <Route path='/categorias/:categoria' element={<ProductListContainer/>}/>
+            <Route path='/categorias/:categoria' element={<ProductListContainer/>}/>
             <Route path='/todas-las-categorias' element={<ProductListContainer/>}/>
             <Route path='/producto/:id' element={<ProductDetailContainer/>}/>
 
