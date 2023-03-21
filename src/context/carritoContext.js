@@ -1,5 +1,5 @@
-import { useContext, createContext } from "react";
-import { useState } from "react";
+import { useContext, createContext, useState } from "react";
+
 
 const CarritoContext = createContext();
 
@@ -7,7 +7,7 @@ export const useCarritoContext = () => useContext(CarritoContext);
 
 export const CarritoProvider = (props) => {
   
-    const [carrito, setCarrito] = useState();
+    const [carrito, setCarrito] = useState([]);
   
   // para saber si esta el producto necesitamos enviarle como parametro a la funcion el id que es unico de cada producto.
       
@@ -46,7 +46,7 @@ export const CarritoProvider = (props) => {
     // eliminar producto
     
       const removeItem = (id) => {
-        setCarrito(carrito.filter(producto => producto.id != id))
+        setCarrito(carrito.filter(producto => producto.id !== id))
       }
     
     // cantidad de productos del carritos. Sirve para darle un valor al numero que aparece en el carrito.

@@ -1,11 +1,11 @@
 import Contador from "../Contador/Contador";
 import './ProductDetail.css'
-//import { useCarritoContext } from "../../Context/CarritoContext"
+import { useCarritoContext } from "../../context/CarritoContext";
 
 const ProductDetail = ({item}) => {
-    //const { addProduct } = useCarritoContext()
+    const { addProduct } = useCarritoContext();
     const onAdd =(contador) =>{
-        //addProduct(item, contador)
+        addProduct(item, contador)
         console.log(contador)
     }
 
