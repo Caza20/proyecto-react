@@ -31,31 +31,51 @@ const Checkout = () => {
     }
 
     return (
-        <div>
+        <div className='container'>
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
-            <div className='mb-3'>
-                <label className="form-label" htmlFor="nombreCompleto"> Nombre y apellido</label>
-                <input type="text" name="nombreCompleto"/>
+            <div className="row g-3 align-items-center">
+                <div className="col-auto">
+                    <label htmlFor="nombreCompleto" className="form-label"> <h2>Nombre y apellido:</h2></label>
+                </div>
+                <div className="col-auto">
+                    <input type="text" className="form-control" name="nombreCompleto"/>
+                </div>
+            </div>
+            
+            <div className="row g-3 align-items-center">
+                <div className="col-auto">
+                    <label htmlFor="email" className="form-label"> <h2>Email:</h2></label>
+                </div>
+                <div className="col-auto">
+                    <input type="email" className="form-control" name="email" />
+                </div>
+            </div>
+            
+            <div className="row g-3 align-items-center">
+                <div className="col-auto">
+                    <label htmlFor="dni" className="form-label"> <h2>DNI:</h2></label>
+                </div>
+                <div className="col-auto">
+                    <input type="number" className="form-control" name="dni"/>
+                </div>
             </div>
 
-            <div className='mb-3'>
-                <label htmlFor="email"> Email</label>
-                <input type="text" name="email"/>
+            <div className="row g-3 align-items-center">
+                <div className="col-auto">
+                    <label htmlFor="celular" className="form-label"> <h2>Celular:</h2> </label>
+                </div>
+                <div className="col-auto">
+                    <input type="number" className="form-control" name="celular"/>
+                </div>
             </div>
 
-            <div className='mb-3'>
-                <label htmlFor="dni"> DNI</label>
-                <input type="number" name="dni"/>
-            </div>
-
-            <div className='mb-3'>
-                <label htmlFor="celular"> Celular </label>
-                <input type="number" name="celular"/>
-            </div>
-
-            <div className='mb-3'>
-                <label htmlFor="direccion">Dirección</label>
-                <input type="text" name="direccion"/>
+            <div className="row g-3 align-items-center">
+                <div className="col-auto">
+                    <label htmlFor="direccion" className="form-label"><h2>Dirección:</h2></label>
+                </div>
+                <div className="col-auto">
+                    <input type="text" className="form-control" name="direccion"/>
+                </div>
             </div>
 
             <button type="submit" className='btn btn-dark'>Finalizar compra</button>
