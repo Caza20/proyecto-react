@@ -11,14 +11,14 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <a href='wwww.facebook.com' className='me-4 text-reset'>
-                        <MDBIcon><i class="bi bi-facebook"></i></MDBIcon> 
+                        <a href='https://es-la.facebook.com/' target="_blank" className='me-4 text-reset'>
+                        <img src="facebook.png" alt="facebook"/> 
                         </a>
-                        <a href='www.twitter.com' className='me-4 text-reset'>
-                        <MDBIcon fab icon="twitter" />
+                        <a href='https://twitter.com/'target="_blank" className='me-4 text-reset'>
+                        <img src="twitter.png" alt="twiter"/> 
                         </a>
-                        <a href='www.instagram.com' className='me-4 text-reset'>
-                        <MDBIcon fab icon ="instagram" />
+                        <a href='https://www.instagram.com/' target="_blank" className='me-4 text-reset'>
+                        <img src="instagram.png" alt="instagram"/>
                         </a>
                     </div>
                 </section>
@@ -26,16 +26,16 @@ const Footer = () => {
                 <MDBContainer className='text-center text-md-start mt-5'>
                         <MDBRow className='mt-3'>
                                     <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-                                        <h4 className='text-uppercase fw-bold mb-4'>
+                                        <h6 className='text-uppercase fw-bold mb-4'>
                                                 <MDBIcon icon="gem" className="me-3" />
                                             MEJ.
-                                        </h4>
+                                        </h6>
                                         <p>Más entretenimiento & Más rendimiento</p>  
                                         
                                     </MDBCol>
 
                                     <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-                                        <h6 className='text-uppercase fw-bold mb-4'>Productos</h6>
+                                        <h7 className='text-uppercase fw-bold mb-4'>Productos</h7>
                                             <p>
                                                 <a href='#!' className='text-reset'>Smartphones</a>
                                             </p>
@@ -48,7 +48,7 @@ const Footer = () => {
                                     </MDBCol>
 
                                     <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-                                        <h6 className='text-uppercase fw-bold mb-4'>Sitios útiles</h6>
+                                        <h7 className='text-uppercase fw-bold mb-4'>Sitios útiles</h7>
                                             <p>
                                                 <a href='#!' className='text-reset'>Sobre nosotros </a>
                                             </p>    
@@ -64,19 +64,17 @@ const Footer = () => {
                                     </MDBCol>
 
                                     <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-                                        <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
+                                        <h7 className='text-uppercase fw-bold mb-4'>Contacto</h7>
                                             <p>
-                                                <MDBIcon className="me-2" />
-                                                Peña 2028 - Palermo, Buenos Aires,Argentina.
+                                                <MDBIcon className="me-2"/>Peña 2028 - Palermo, Buenos Aires,Argentina.
                                             </p>
                                             <p>
-                                                <MDBIcon icon="e-mail" className="me-3" />
-                                                mej.contacto@gmail.com
-                                            </p>
+                                                <MDBIcon icon="e-mail" className="me-3"/>mej.contacto@gmail.com
+                                            </p>   
                                             <p>
-                                                <MDBIcon icon="teléfono" className="me-3" /> +549 11 4595688
+                                                <MDBIcon icon="teléfono" className="me-3"/>+549-11-4595688
                                             </p>
-                                    </MDBCol>
+                                    </MDBCol>                    
                         </MDBRow>       
                 </MDBContainer>           
                 </section>              
