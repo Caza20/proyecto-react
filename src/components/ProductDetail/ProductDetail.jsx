@@ -10,20 +10,21 @@ const ProductDetail = ({item}) => {
     }
 
     return (
-        <div className="card text-center animate__animated animate__fadeInRight">
-            <div className="d-flex justify-content-center align-items-center ">
-            <img src={item.img} alt="" className="img-fluid container justify-content-center"/>
+        <div className="row container d-flex align-items-center animate__animated animate__fadeInRight">
+            <div className="col-md-4 imgBody">
+            <div className="overflow ">
+            <img src={item.img} alt="" className="img-fluid rounded-start"/>
             </div>
-            <div className="card-body text-light col-md-8">
-                <div className="container card-body text-secondary row">
+            </div>
+            <div className="col-md-8">
+                <div className="card-body column justify-content-center align-items-center text-secondary">
                     <h3 className="card-text">modelo:{item.nombre}</h3>
                     <h4 className="card-text">marca:{item.marca}</h4>
                     <h6 className="card-text">precio:${item.precio}</h6>
                     <h6 className="card-text">stock:{item.stock}</h6>
+                    <Contador stock={item.stock} onAdd={onAdd}/>
                 </div>
-            </div> 
-            <div className='container contador'>
-                <Contador stock={item.stock} onAdd={onAdd}/>
+                
             </div>
         </div>
     );
@@ -32,7 +33,3 @@ const ProductDetail = ({item}) => {
 export default ProductDetail;
 
 
-/* 
-<div className='container contador'>
-                <Contador stock={item.stock} onAdd={onAdd}/>
-            </div>    */       

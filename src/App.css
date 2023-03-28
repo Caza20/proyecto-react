@@ -61,6 +61,7 @@ body{
 } */
 .card-img-top{
 
+
 }
 .card-text .card-text1 {
   list-style-type:none;
@@ -68,9 +69,6 @@ body{
 .card{
   margin: 5px;
   border-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content:center;
 }
 .card:hover{
   box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
@@ -99,4 +97,22 @@ body{
 }
 .card-img-top:hover{
     transform: scale(1.8);
+}
+
+.cardProductDetail{
+  height: 15rem;
+  width: 20rem;
+}
+.cardProductos {
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardProducto {
+  width: 19rem;
+  margin: 4px;
+}
+.pepito{
+  margin-top: 100vh;
 }

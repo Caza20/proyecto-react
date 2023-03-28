@@ -8,7 +8,7 @@ const Contador = ({stock, onAdd}) => {
     const agregarAlCarrito = () => onAdd(cont)
 
     return (
-        <div className="container col justify-content-center contenedor">
+        <div className="d-flex align-items-center">
             
                 <button onClick={() => disCont()} className= "btn btn-dark btn-sm boton_menos">-</button>
                 <h4>{cont}</h4>

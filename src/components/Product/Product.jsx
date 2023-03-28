@@ -5,7 +5,8 @@ const Product = ({prod}) => {
     console.log(prod)
     return (
 
-        <div className='card text-center animate__animated animate__fadeInRight'>
+        <div className='container cardProducto row animate__animated animate__fadeInRight'>
+            <div className="card">
             <div className="overflow">
             <img src={prod.img} className="card-img-top" alt="..." /> 
             </div>
@@ -18,6 +19,7 @@ const Product = ({prod}) => {
                         <li className="card-text1">Stock:{prod.stock}</li>
                         <button className="btn btn-outline-secondary rounded-0 boton_compra"><Link className="nav-link" to={`/producto/${prod.id}`}> ver producto </Link></button>
                     </ul>
+                </div>
                 </div>
             </div>
         );

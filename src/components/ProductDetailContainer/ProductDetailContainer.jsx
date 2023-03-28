@@ -26,8 +26,8 @@ const ProductDetailContainer = () => {
 
     },[]) */
     return (
-        <div className="card mb-3">
-            <ProductDetail item = {producto} />            
+        <div className="card mb-3 container itemDetail">
+            <ProductDetail item = {producto} />
         </div>
     );
 }

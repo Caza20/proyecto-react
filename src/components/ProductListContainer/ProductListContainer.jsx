@@ -41,12 +41,8 @@ function ProductListContainer() {
     }, []); */
 
     return (
-        <div className='container d-flex space-between-center align-items-center'>
-            <div className="row">
-                <div className="col-md-4">
+        <div className='row cardProductos'>
             {productos}
-            </div>
-            </div>
         </div> 
     );
 }
