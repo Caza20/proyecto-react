@@ -1,6 +1,6 @@
 import React from 'react';
 import { useRef } from 'react';
-import { useCarritoContext } from '../../context/CarritoContext';
+import { useCarritoContext } from '../../context/carritoContext';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 

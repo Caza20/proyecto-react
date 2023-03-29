@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify';
 /* Componentes */
 import Navbar from './navbar/navbar';
 import { Carousel } from './Carousel/Carousel';
-import { CarritoProvider } from '../context/CarritoContext';
+import { CarritoProvider } from '../context/carritoContext';
 import ProductListContainer from './ProductListContainer/ProductListContainer';
 import ProductDetailContainer from './ProductDetailContainer/ProductDetailContainer';
 import Carro from './carro/carro';
