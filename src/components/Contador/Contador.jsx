@@ -1,4 +1,3 @@
-import './Contador.css'
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
@@ -11,11 +10,11 @@ const Contador = ({stock, onAdd}) => {
     return (
         <div className="container justify-content-center contenedor">
             <div className="contador">
-                <button onClick={() => disCont()} className= "btn-sm boton_menos">-</button>
-                <h3>{cont}</h3>
-                <button onClick={() => aumCont()} className=" btn-sm boton_mas">+</button>
+                <button onClick={() => disCont()} className="btn-outline-success  rounded-0 boton_compra boton_menos"><h3>-</h3></button>
+                <h2>{cont}</h2>
+                <button onClick={() => aumCont()} className="btn-outline-success  rounded-0 boton_compra boton_mas"><h3>+</h3></button>
             </div>
-                <button onClick={() => agregarAlCarrito()} className=" btn-sm  boton_agregar"><Link to={'/producto-agregado'}><h3>Agregar</h3></Link></button>
+                <button onClick={() => agregarAlCarrito()} className="btn-outline-success  rounded-0 boton_compra "><Link className="nav-link text-dark" to={'/producto-agregado'}><h3>Agregar</h3></Link></button>
         </div>
 
     );

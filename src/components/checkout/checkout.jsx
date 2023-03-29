@@ -31,54 +31,54 @@ const Checkout = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='container formulario'>
             <form onSubmit={consultarFormulario} ref={datosFormulario}>
-            <div className="row g-3 align-items-center">
-                <div className="col-auto">
-                    <label htmlFor="nombreCompleto" className="form-label"> <h2>Nombre y apellido:</h2></label>
+                <div className="row g-3 align-items-center cont-form">
+                    <div className="col-auto">
+                        <label htmlFor="nombreCompleto" className="form-label text-white"> <h2>Nombre y apellido:</h2></label>
+                    </div>
+                    <div className="col-auto">
+                        <input type="text" className="form-control form-control-lg" name="nombreCompleto"/>
+                    </div>
                 </div>
-                <div className="col-auto">
-                    <input type="text" className="form-control" name="nombreCompleto"/>
-                </div>
-            </div>
             
-            <div className="row g-3 align-items-center">
-                <div className="col-auto">
-                    <label htmlFor="email" className="form-label"> <h2>Email:</h2></label>
+                <div className="row g-3 align-items-center cont-form">
+                    <div className="col-auto">
+                        <label htmlFor="email" className="form-label text-white"> <h2>Email:</h2></label>
+                    </div>
+                    <div className="col-auto">
+                        <input type="email" className="form-control form-control-lg" name="email" />
+                    </div>
                 </div>
-                <div className="col-auto">
-                    <input type="email" className="form-control" name="email" />
-                </div>
-            </div>
             
-            <div className="row g-3 align-items-center">
-                <div className="col-auto">
-                    <label htmlFor="dni" className="form-label"> <h2>DNI:</h2></label>
+                <div className="row g-3 align-items-center cont-form">
+                    <div className="col-auto">
+                        <label htmlFor="dni" className="form-label text-white"> <h2>DNI:</h2></label>
+                    </div>
+                    <div className="col-auto">
+                        <input type="number" className="form-control form-control-lg" name="dni"/>
+                    </div>
                 </div>
-                <div className="col-auto">
-                    <input type="number" className="form-control" name="dni"/>
-                </div>
-            </div>
 
-            <div className="row g-3 align-items-center">
-                <div className="col-auto">
-                    <label htmlFor="celular" className="form-label"> <h2>Celular:</h2> </label>
+                <div className="row g-3 align-items-center cont-form">
+                    <div className="col-auto">
+                        <label htmlFor="celular" className="form-label text-white"> <h2>Celular:</h2> </label>
+                    </div>
+                    <div className="col-auto">
+                        <input type="number" className="form-control form-control-lg" name="celular"/>
+                    </div>
                 </div>
-                <div className="col-auto">
-                    <input type="number" className="form-control" name="celular"/>
-                </div>
-            </div>
 
-            <div className="row g-3 align-items-center">
-                <div className="col-auto">
-                    <label htmlFor="direccion" className="form-label"><h2>Dirección:</h2></label>
+                <div className="row g-3 align-items-center cont-form">
+                    <div className="col-auto">
+                        <label htmlFor="direccion" className="form-label text-white"><h2>Dirección:</h2></label>
+                    </div>
+                    <div className="col-auto">
+                        <input type="text" className="form-control form-control-lg" name="direccion"/>
+                    </div>
                 </div>
-                <div className="col-auto">
-                    <input type="text" className="form-control" name="direccion"/>
-                </div>
-            </div>
 
-            <button type="submit" className='btn btn-dark'>Finalizar compra</button>
+                <button type="submit" className='btn-outline-success  rounded-0 boton_compra '><h3 className="nav-link text-dark">Finalizar compra</h3></button>
             </form>
         </div>
     );

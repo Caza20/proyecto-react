@@ -10,23 +10,23 @@ const Footer = () => {
             <div className="row p-5">
                 <div className="col-xs-12 col-md-6 col-lg-3">
                     <h1 className="footer-text">MEJ</h1>
-                    <h3 className="footer-text">Seguinos en nuestras redes sociales</h3>
-                    <ul>
-                        <li>
-                    <a href='https://es-la.facebook.com/' target="_blank" rel="noreferrer" className="redes">
-                        <img className="imagenes" src="images/face-ic.png" alt="facebook"/> 
-                    </a>
-                    </li>
-                    <li>
-                    <a href='https://twitter.com/'target="_blank" rel="noreferrer" className='me-4 text-reset'>
-                        <img src="images/twitter.png" alt="twiter"/> 
-                    </a>
-                    </li>
-                    <li>
-                    <a href='https://www.instagram.com/' target="_blank" rel="noreferrer" className='me-4 text-reset'>
-                        <img src="images/instagram.png" alt="instagram"/>
-                    </a> 
-                    </li>
+                    <h3 className="footer-text footer-redes">Seguinos en nuestras redes sociales</h3>
+                    <ul className = "footer-redes">
+                        <li className = "images">
+                            <a href='https://es-la.facebook.com/' target="_blank" rel="noreferrer" className="redes images">
+                                <img  src="images/facebook.png" alt="facebook"/> 
+                            </a>
+                        </li>
+                        <li className = "images">
+                            <a href='https://twitter.com/'target="_blank" rel="noreferrer" className='redes'>
+                                <img src="images/twitter.png" alt="twiter"/> 
+                            </a>
+                        </li>
+                        <li className = "images">
+                            <a href='https://www.instagram.com/' target="_blank" rel="noreferrer" className='redes'>
+                                <img src="images/instagram.png" alt="instagram"/>
+                            </a> 
+                        </li>
                     </ul>
 
                 </div>
@@ -76,7 +76,6 @@ const Footer = () => {
             </div>
             <div className='footer text-center p-4 col-xs-12' bg-color='rgba(0, 0, 0, 0.05'>
                 <h4 className="footer-text">MEJ.Todos los derechos reservados© 2023</h4>
-                <a className='text-reset fw-bold' href='https://mdbootstrap.com/'> </a>
             </div>
         </div>
 
