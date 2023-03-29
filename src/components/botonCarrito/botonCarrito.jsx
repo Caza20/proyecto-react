@@ -11,7 +11,7 @@ const BotonCarrito = () => {
 
         <>
         <button className="bg-carrito">
-            <Link className="nav-link" id="navsec"to={`/carrito`}>
+            <Link className="nav-link text-white" id="navsec"to={`/carrito`}>
                 <img className="imagenes" src="images/carrito.png" alt="carrito"/> 
                 (<span>{getItemQuantity()}</span>)
             </Link>
