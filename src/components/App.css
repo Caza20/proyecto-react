@@ -58,9 +58,28 @@ html{
 /* ------------------ PROYECTO ---------------------- */
 
 /* Color de fondo para todas las hojas */
-body{
- /* background-color: rgb(236, 185, 58); */
+body, .dropdown-menu, .bg-carrito{
+  background-color: #001428;
+} 
+.card{
+  background-color: #0B1E32;
+  /*margin: 5px;*/
+  border-top: 10px;
+  align-items: center
+  
 }
+
+.footer{
+  border-top: 3px white solid;
+}
+.footer-text{
+  color: white;
+}
+
+.navbar{
+  border-bottom: 1px white solid;
+}
+
 
 
 
@@ -80,9 +99,7 @@ body{
 } */
 
 /* tamanio del logo */
-div img{
-  /*width: 15rem;*/
-}
+
 
 /* formato a la caja que contiene el logo y titulo */
 /*.img-logo{
@@ -136,12 +153,14 @@ div img{
 /* contenedor del buscador */
 .d-flex{
   align-items: center;
-  width: 400px;
+  width: 600px;
+  flex-direction: row;
 }
 
 /* formato del buscador */
 .buscador {
   height: 52px;
+  width: 300px;
   text-decoration: none;
   /*color: whitesmoke;*/
   font-size: 2rem;
@@ -158,23 +177,34 @@ div img{
 /*-------------------------------------------------------------*/
 
 .cardProducto{
-  margin: 5px;
+  margin: 10px;
   border-top: 10px;
   display: flex;
   align-items: center;
   justify-content:center;
+    width: 19rem;
+
   
   
 } 
+
+.cardProductos {
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-body{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 19rem;
+  width: 17rem;
   margin: 4px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   border-radius: 5px;
   box-shadow: 8px;
+  padding: 2rem 0 !important;
 
 }
 .card-img-top{
@@ -182,12 +212,21 @@ div img{
   align-items: center;
   justify-content: center;
   width: 10rem;
+  transition: all 0.2s ease-in-out;
 }
+
+.card-img-top:hover{
+  transform: scale(1.8);
+}
+
 .card-text{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   align-content: center;
   justify-content: center;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
 }
 .card-text .card-text1 {
   list-style-type:none;
@@ -199,4 +238,37 @@ div img{
   width: 100px;
   margin: 10px;
   padding: 10px;
+}
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
+}
+
+.contador {
+  align-self: center;
+  margin:10px;
+}
+
+.overflow{
+  overflow: hidden;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardProductDetail{
+  height: 15rem;
+  width: 20rem;
+}
+
+.carritoVacio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.redes{
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
 }

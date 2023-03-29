@@ -10,21 +10,21 @@ const ProductDetail = ({item}) => {
     }
 
     return (
-        <div className="contenedor_detalle">
-            <div className="d-flex justify-content-around align-items-center">
-            <img src={item.img} alt="" className="img-fluid container justify-content-center"/>
+        <div className="row container d-flex align-items-center animate__animated animate__fadeInRight">
+            <div className="col-md-4 imgBody">
+            <div className="overflow">
+            <img src={item.img} alt="" className="img-fluid rounded-start"/>
+            </div>
             </div>
             <div className="col-md-8">
-                <div className="container card-body row producto_descripcion">
-                    <h3 className="card-tittle">modelo:{item.nombre}</h3>
-                    <h4 className="card-text">marca:{item.marca}</h4>
-                    <h6 className="card-text">precio:${item.precio}</h6>
-                    <h6 className="card-text">stock:{item.stock}</h6>
+                <div className="card-body column justify-content-center align-items-center text-secondary">
+                    <h2 className="card-text">{item.nombre}</h2>
+                    <h4 className="card-text">Marca: {item.marca}</h4>
+                    <h6 className="card-text">Precio:${item.precio}</h6>
+                    <h6 className="card-text">Stock:{item.stock}</h6>
+                    <Contador stock={item.stock} onAdd={onAdd}/>
                 </div>
             </div> 
-            <div className='container contador'>
-                <Contador stock={item.stock} onAdd={onAdd}/>
-            </div>
         </div>
     );
 }

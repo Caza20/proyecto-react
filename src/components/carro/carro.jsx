@@ -10,33 +10,39 @@ const Carro = () => {
         <>
             {carrito.length === 0 
             ?
-                <>
-                    <h1>Carrito vacio</h1>
-                    <button className='btn btn-dark'><Link to={'/'} className='nav-link'>Ir al inicio</Link></button>
-                </>
+                <div className="container carritoVacio">
+                    <h1 className="text-secondary">Carrito vacio</h1>
+                    <button className='bg-carrito '><Link to={'/'} className='nav-link text-white'><h2>Ir al inicio</h2></Link></button>
+                </div>
             :
                 <>
                     {carrito.map(prod => 
-                        <div key={prod.id}>
-                            <div>
-                                <img src={prod.img} alt="imagen del producto"/>
-                            </div>
-                            <div>
-                                <h5>{prod.nombre} {prod.modelo}</h5>
-                                <p>Cantidad: {prod.cant}</p>
-                                <p>Precio unitario: ${new Intl.NumberFormat('de-DE').format(prod.precio)}</p>
-                                <p>Subtotal: ${new Intl.NumberFormat('de-DE').format(prod.precio*prod.cant)}</p>
-                                <button onClick={()=> removeItem(prod.id)}>Eliminar producto</button>
-                            </div>
+                    
+                        <div className="row container d-flex align-items-center animate__animated animate__fadeInRight" key={prod.id}>
+                            <div className="col-md-4 imgBody">
+                                <div className="overflow">
+                                    <img src={prod.img} alt="imagen del producto" className="img-fluid rounded-start"/>
+                                </div>
+                                </div>
+                                <div className="col-md-8">
+                                    <div className="card-body column justify-content-center align-items-center text-secondary">
+                                        <h2 className="card-text1">{prod.nombre} {prod.modelo}</h2>
+                                        <h3 className="card-text1">Cantidad: {prod.cant}</h3>
+                                        <h3 className="card-text1">P. unit.: ${new Intl.NumberFormat('de-DE').format(prod.precio)}</h3>
+                                        <h3 className="card-text1">Subtotal: ${new Intl.NumberFormat('de-DE').format(prod.precio*prod.cant)}</h3>
+                                        <button className="btn-outline-success  rounded-0 boton_compra " onClick={()=> removeItem(prod.id)}><h3 className="nav-link text-dark">Eliminar producto</h3></button>
+                                    </div>
+                                </div>
+                        
+                        
                         </div>
-                
                     )}
 
                     <div className="divButtons">
-                        <p>Resumen de la compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</p>
-                        <button  onClick={() => emptyCart()}> Vaciar carrito</button>
-                        <button className="btn btn-dark">  <Link to={"/"}>Continuar comprando</Link></button>
-                        <button className="btn btn-dark"> <Link to={"/checkout"}>Finalizar compra</Link></button>
+                        <h3 className="text-secondary">Resumen de la compra: ${new Intl.NumberFormat('de-DE').format(totalPrice())}</h3>
+                        <button  className="btn-outline-success  rounded-0 boton_compra" onClick={() => emptyCart()}> <h3 className="nav-link text-dark">Vaciar carrito </h3></button>
+                        <button className="btn-outline-success  rounded-0 boton_compra">  <Link className="text-decoration-none" to={"/"}><h3 className="nav-link text-dark">Continuar comprando </h3></Link></button>
+                        <button className="btn-outline-success  rounded-0 boton_compra"> <Link  className="text-decoration-none" to={"/checkout"}><h3 className="nav-link text-dark">Finalizar compra</h3></Link></button>
                     </div>
                 </>
             }

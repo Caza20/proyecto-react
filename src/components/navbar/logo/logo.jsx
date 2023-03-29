@@ -7,7 +7,7 @@ const Logo = () => {
     return (
         <div className = "navbar-brand" id = "contenedorSecciones">
             <div>
-                <Link className="navbar-brand" id="navsec" to={'/'}>LOGO</Link>
+                <Link className="navbar-brand text-white" id="navsec" to={'/'}>LOGO</Link>
             </div>
 
             <Secciones/>

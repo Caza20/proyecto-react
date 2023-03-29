@@ -8,13 +8,14 @@ import { ToastContainer } from 'react-toastify';
 
 /* Componentes */
 import Navbar from './navbar/navbar';
-
+import { Carousel } from './Carousel/Carousel';
 import { CarritoProvider } from '../context/CarritoContext';
 import ProductListContainer from './ProductListContainer/ProductListContainer';
 import ProductDetailContainer from './ProductDetailContainer/ProductDetailContainer';
 import Carro from './carro/carro';
 import Checkout from './checkout/checkout';
 import AgregarProducto from './agregarProducto/agregarProducto';
+import Footer from './Footer/Footer';
 
 
 
@@ -25,9 +26,9 @@ function App() {
       <BrowserRouter>
        
         <Navbar/>
-
+       
         <Routes>
-            <Route path='/' element={<ProductListContainer/>}/> 
+            <Route path='/' element={<Carousel/>}/> 
 
             <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
             <Route path='/marcas/:marca' element={<ProductListContainer/>}/>
@@ -50,6 +51,7 @@ function App() {
             <Route path='/carrito' element={<Carro/>}/>
 
         </Routes>
+        <Footer/>
         <ToastContainer/>
       </BrowserRouter>
       </CarritoProvider>

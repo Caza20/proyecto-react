@@ -10,7 +10,12 @@ const BotonCarrito = () => {
     return (
 
         <>
-        <button className="btn btn-dark"><Link className="nav-link" to={`/carrito`}> Carrito (<span>{getItemQuantity()}</span>)</Link></button>
+        <button className="bg-carrito">
+            <Link className="nav-link" id="navsec"to={`/carrito`}>
+                <img className="imagenes" src="images/carrito.png" alt="carrito"/> 
+                (<span>{getItemQuantity()}</span>)
+            </Link>
+        </button>
         
         </>
     );
