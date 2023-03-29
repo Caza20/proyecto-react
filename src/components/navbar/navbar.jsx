@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div>
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav className="navbar navbar-expand-lg navbar-light container-fluid">
                 
                     <div className="container-fluid" id = "contenedorNav">
   

@@ -58,39 +58,59 @@ html{
 /* ------------------ PROYECTO ---------------------- */
 
 /* Color de fondo para todas las hojas */
-body{
- /* background-color: rgb(236, 185, 58); */
+body, .dropdown-menu, .bg-carrito{
+  background-color: #001428;
+} 
+
+/* Estilos para el molde de las card */
+.card{
+  background-color: #0B1E32;
+  /*margin: 5px;*/
+  border-top: 10px;
+  align-items: center
+  
 }
 
+/**************************  FOOTER ***************************************/
+
+.footer{
+  border-top: 3px white solid;
+}
+.footer-text{
+  color: white;
+}
+
+.footer-redes{
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.images{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+/*************************** NAVBAR ********************************************/
+.navbar{
+  border-bottom: 1px white solid;
+}
+
+/******************* CHEKOUT ***************************************/
+
+.formulario{
+  margin-left: 550px;
+}
+.cont-form{
+  margin: 20px;
+}
 
 
 
 /*-------------------------------------------------------------*/
 /* BARRA DE NAVEGACION  CON BOOTSTRAP*/
 
-/* Color de fondo */
-/* header{
-  background-color: rgb(96, 96, 96);
-} */
-
-/* estilos para titulo del navbar */
-/* div h1{
-  background-color: rgb(96, 96, 96);
-  font-size: 3rem;
-} */
-
-/* tamanio del logo */
-div img{
-  /*width: 15rem;*/
-}
-
-/* formato a la caja que contiene el logo y titulo */
-/*.img-logo{
-  padding: 0 1rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}*/
 
 /* formato a cada seccion */
 #navsec{
@@ -136,12 +156,15 @@ div img{
 /* contenedor del buscador */
 .d-flex{
   align-items: center;
-  width: 400px;
+  width: 1000px;
+  flex-direction: row;
+  margin: 5px;
 }
 
 /* formato del buscador */
 .buscador {
   height: 52px;
+  width: 300px;
   text-decoration: none;
   /*color: whitesmoke;*/
   font-size: 2rem;
@@ -157,46 +180,155 @@ div img{
 
 /*-------------------------------------------------------------*/
 
+
+/* fORMATO DE LAS CARD DE TODOS LOS PRODUCTOS */
 .cardProducto{
-  margin: 5px;
+  margin: 10px;
   border-top: 10px;
   display: flex;
   align-items: center;
   justify-content:center;
-  
-  
+    width: 19rem;
 } 
+
+.cardProductos {
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-body{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 19rem;
+  width: 17rem;
   margin: 4px;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   border-radius: 5px;
   box-shadow: 8px;
+  padding: 2rem 0 !important;
 
 }
+
+.card-body1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 40rem;
+  margin: 4px;
+  /*border: 2px solid black;*/
+  border-radius: 5px;
+  box-shadow: 8px;
+  padding: 2rem 0 !important;
+
+}
+
+/* FORMATO PARA LAS IMAGENES DE LAS CARD */
 .card-img-top{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10rem;
+  width: 15rem;
+  transition: all 0.2s ease-in-out;
 }
+
+.card-img-top:hover{
+  transform: scale(1.8);
+}
+
+/* FORMATO PARA EL TEXTO DE LAS CARDS */
 .card-text{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   align-content: center;
   justify-content: center;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
 }
 .card-text .card-text1 {
   list-style-type:none;
 }
-.btn-dark{
+
+
+
+.card:hover{
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.7s linear;
+}
+
+.contador {
+  align-self: center;
+  margin:10px;
+}
+
+.overflow{
+  overflow: hidden;
   display: flex;
-  justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardProductDetail{
+  height: 15rem;
+  width: 20rem;
+}
+
+.carritoVacio{
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  width: 100px;
-  margin: 10px;
-  padding: 10px;
+}
+.redes{
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/***************** PRODUCT DETAIL ******************/
+
+.contador {
+  align-self: center;
+  margin:10px;
+}
+.producto_descripcion {
+  margin-left: 30px;
+}
+
+
+
+@media ( max-width: 530px) {
+  h3 { 
+      font-size: 20px;
+  }
+  h5 {
+      font-size: 13px;
+  }
+  h6 {
+      font-size: 13px;
+  }
+  .producto_descripcion {
+      margin-left: 0px;
+  }
+  
+}
+
+/************************* CONTADOR *******************/
+
+button{
+  margin: 5px;
+  padding: 5px;
+}
+.contenedor {
+  display: flex;
+  align-items:center;
+  flex-direction: row;
+}
+
+.contador{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

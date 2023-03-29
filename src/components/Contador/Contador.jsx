@@ -1,5 +1,5 @@
-import './Contador.css'
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 const Contador = ({stock, onAdd}) => {
     const [cont, setCont] = useState (1)
@@ -8,12 +8,13 @@ const Contador = ({stock, onAdd}) => {
     const agregarAlCarrito = () => onAdd(cont)
 
     return (
-        <div className="container col justify-content-center contenedor">
-            
-                <button onClick={() => disCont()} className= "btn btn-dark btn-sm boton_menos">-</button>
-                <h4>{cont}</h4>
-                <button onClick={() => aumCont()} className="btn btn-dark btn-sm boton_mas">+</button>
-                <button onClick={() => agregarAlCarrito()} className="btn btn-dark btn-sm  boton_agregar">Agregar</button>
+        <div className="container justify-content-center contenedor">
+            <div className="contador">
+                <button onClick={() => disCont()} className="btn-outline-success  rounded-0 boton_compra boton_menos"><h3>-</h3></button>
+                <h2>{cont}</h2>
+                <button onClick={() => aumCont()} className="btn-outline-success  rounded-0 boton_compra boton_mas"><h3>+</h3></button>
+            </div>
+                <button onClick={() => agregarAlCarrito()} className="btn-outline-success  rounded-0 boton_compra "><Link className="nav-link text-dark" to={'/producto-agregado'}><h3>Agregar</h3></Link></button>
         </div>
 
     );
